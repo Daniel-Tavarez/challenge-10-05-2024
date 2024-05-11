@@ -1,0 +1,39 @@
+<div class="header">
+  <div class="content">
+    <h1>Direcciones del cliente {{ client }}</h1>
+  </div>
+</div>
+<div class="buttons">
+  <button class="back" (click)="goBack()">Volver atras</button>
+  <button class="create" (click)="goToCreate()">Crear dirección</button>
+</div>
+<div class="address-detail-container" *ngIf="addesses.length > 0">
+  <div class="address-detail" *ngFor="let address of addesses">
+    <div class="information">
+      <div class="delete">
+        <button (click)="delete(address.id)">Borrar</button>
+      </div>
+      <div class="edit">
+        <button (click)="goToUpdate(address.id)">Editar</button>
+      </div>
+      <div class="title-and-rating">
+        <h3>{{ address!.country }}</h3>
+      </div>
+      <div class="rating-text">
+        <p>{{ address!.state }}</p>
+      </div>
+      <div class="overview">
+        <p>{{ address!.city }}</p>
+      </div>
+      <div class="overview">
+        <p>{{ address!.street }}</p>
+      </div>
+      <div class="overview">
+        <p>{{ address!.postalCode }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="address-detail-container" *ngIf="addesses.length == 0">
+  <h2>No hay direcciones creadas, creala!</h2>
+</div>

@@ -24,6 +24,12 @@ namespace ClientsAPI.Controllers
         {
             return await _context.Addresses.ToListAsync();
         }
+        
+        [HttpGet("client/{clientId}")]
+        public async Task<ActionResult<IEnumerable<Address>>> GetAddressesByCLientId(int clientId)
+        {
+            return await _context.Addresses.Where(x => x.ClientId == clientId).ToListAsync();
+        }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Address>> GetAddress(int id)

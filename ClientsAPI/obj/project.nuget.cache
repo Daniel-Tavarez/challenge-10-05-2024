@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mBw0OLQcBbNAmGQx565yxvSkM47enVNaZvZjAKi2ttZo1pdpziqK8NLKK4e363YmJWML3b2GP8dLevqaUHc7tQ==",
+  "dgSpecHash": "Z1UYfv0futR98+y1hCS+JlNV7LkzjGXh3SJ94Z6LYSbW209JhdaKNrB+k7dF7JmP7nNkH6j6CzPVqDJcZMTVGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\danie\\OneDrive\\Escritorio\\Oriontek\\challenge-10-05-2024\\ClientsAPI\\ClientsAPI.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.29\\microsoft.entityframeworkcore.design.6.0.29.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.29\\microsoft.entityframeworkcore.relational.6.0.29.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.29\\microsoft.entityframeworkcore.sqlserver.6.0.29.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.29\\microsoft.entityframeworkcore.tools.6.0.29.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\danie\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",

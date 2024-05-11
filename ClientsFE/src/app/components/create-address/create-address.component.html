@@ -1,0 +1,25 @@
+<div class="header">
+  <div class="content">
+    <h1>
+      {{
+        isEditing
+          ? "Editando dirección del cliente "
+          : "Creando dirección para el cliente "
+      }}
+      {{ client }}
+    </h1>
+  </div>
+</div>
+<div class="buttons">
+  <button class="back" (click)="goBack()">Volver atras</button>
+</div>
+<form [formGroup]="addressForm" class="form" (ngSubmit)="onSubmit()">
+  <input formControlName="street" placeholder="Street" />
+  <input formControlName="city" placeholder="City" />
+  <input formControlName="state" placeholder="State" />
+  <input formControlName="postalCode" placeholder="Postal Code" />
+  <input formControlName="country" placeholder="Country" />
+  <button class="create" type="submit">
+    {{ isEditing ? "Editar" : "Guardar" }}
+  </button>
+</form>
